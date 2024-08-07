@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==2.2.2"
+flask-restful = "==0.3.10"
+numpy = "==1.24.3"
+tensorflow = "==2.13.0"
+werkzeug = "==2.2.3"
+pillow = "==9.4.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
