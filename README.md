@@ -64,5 +64,4 @@ curl -X POST http://localhost:5000/predict -F "file=@example/test_1.jpg"
 
 - The results can also be inferred by using Postman.
 
-  ![Screenshot from 2024-08-07 23-12-32](https://github.com/user-attachments/assets/2778fd49-532f-4655-bb05-83d79c1cb3cc)
-
+  ![image](https://github.com/user-attachments/assets/7a3a37d3-acf6-44a7-a249-26e0a26afa50)
