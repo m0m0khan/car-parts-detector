@@ -43,6 +43,12 @@ docker build -t car-parts-inference:latest .
 docker run -p 5000:5000 car-parts-inference:latest
 ```
 
+Alternatively, pull the docker image.
+
+```bash
+docker pull mkhan92/car-parts-detector
+```
+
 ### Inference
 
 Either of the ways can be used to test the model on an image of a car.
