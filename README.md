@@ -23,7 +23,7 @@ Instructions on how to get a copy of the project running on your local machine f
 
 ### Prerequisites
 
-The project contains a Dockerfile and can be run using docker.
+Docker
 
 ### Installation
 
@@ -58,7 +58,8 @@ There is a test image in the example folder for inferring the results. It can be
 ```bash
 curl -X POST http://localhost:5000/predict -F "file=@example/test_1.jpg"
 
-{"backdoor_probability":0.044057708233594894,"hood_probability":0.8912563920021057}
+# Response
+{"backdoor_probability":0.10644196718931198,"hood_probability":0.871918797492981}
 ```
 
 - The results can also be inferred by using Postman.
