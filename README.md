@@ -4,7 +4,7 @@ A deep learning model to detect the visibility of the hood and left backdoor of 
 
 ## Table of Contents
 
-- [Project Name](#project-name)
+- [Car parts detector](#project-name)
   - [About](#about)
   - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
