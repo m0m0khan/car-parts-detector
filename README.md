@@ -56,7 +56,8 @@ curl -X POST http://localhost:5000/predict -F "file=@/path/to/image.jpg"
 There is a test image in the example folder for inferring the results. It can be used to predict the results as:
 
 ```bash
-curl -X POST http://localhost:5000/predict -F "file=@example/test_1.jpg"
+cd car-parts-detector/example
+curl -X POST http://localhost:5000/predict -F "file=@test_1.jpg"
 
 # Response
 {"backdoor_probability":0.10644196718931198,"hood_probability":0.871918797492981}
