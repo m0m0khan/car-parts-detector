@@ -27,7 +27,7 @@ Docker
 
 ### Installation
 
-Step-by-step guide on how to install and set up your project.
+Step-by-step guide on how to install and set up the project.
 
 ```bash
 # Clone the repository
